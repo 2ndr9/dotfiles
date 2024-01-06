@@ -29,6 +29,9 @@ cask "android-studio"
 cask "deepl"
 cask "karabiner-elements"
 cask "zoomus"
+cask "discord"
+cask "figma"
+cask "spotify"
 mas "LINE", id: 539883307
 mas "Goodnotes 6", id: 1444383602
 mas "Keynote", id: 409183694
