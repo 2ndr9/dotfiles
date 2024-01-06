@@ -1,0 +1,31 @@
+cask_args appdir: "/Applications"
+
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "awscli"
+brew "cmake"
+brew "direnv"
+brew "ffmpeg"
+brew "gh"
+brew "git"
+brew "grpcurl"
+brew "imagemagick"
+brew "node"
+brew "nodenv"
+brew "tree"
+brew "wget"
+brew "smudge/smudge/nightlight"
+brew "docker"
+cask "background-music"
+cask "ngrok"
+cask "raycast"
+cask "iterm2"
+cask "slack"
+cask "google-chrome"
+cask "docker"
+cask "visual-studio-code"
+mas "LINE" 539883307
+mas "Goodnotes 6" 1444383602
+mas "Keynote" 409183694
+mas "iMovie" 408981434 
