@@ -1,8 +1,5 @@
-cask_args appdir: "/Applications"
-
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
+tap "smudge/smudge"
 brew "awscli"
 brew "cmake"
 brew "direnv"
@@ -13,28 +10,29 @@ brew "grpcurl"
 brew "imagemagick"
 brew "node"
 brew "nodenv"
+brew "pyenv"
 brew "tree"
 brew "wget"
 brew "smudge/smudge/nightlight"
 brew "docker"
-brew "pyenv"
-cask "background-music"
-cask "ngrok"
-cask "raycast"
-cask "warp"
-cask "slack"
-cask "google-chrome"
+cask "android-studio", args: { appdir: "/Applications" }
+cask "deepl", args: { appdir: "/Applications" }
+cask "discord", args: { appdir: "/Applications" }
 cask "docker"
-cask "visual-studio-code"
-cask "android-studio"
-cask "deepl"
-cask "karabiner-elements"
+cask "figma", args: { appdir: "/Applications" }
+cask "google-chrome", args: { appdir: "/Applications" }
+cask "google-japanese-ime", args: { appdir: "/Applications" }
+cask "karabiner-elements", args: { appdir: "/Applications" }
+cask "microsoft-auto-update"
+cask "microsoft-teams"
+cask "raycast", args: { appdir: "/Applications" }
+cask "slack", args: { appdir: "/Applications" }
+cask "spotify", args: { appdir: "/Applications" }
+cask "visual-studio-code", args: { appdir: "/Applications" }
+cask "warp"
 cask "zoomus"
-cask "discord"
-cask "figma"
-cask "spotify"
-cask "google-japanese-ime"
-mas "LINE", id: 539883307
-mas "Goodnotes 6", id: 1444383602
-mas "Keynote", id: 409183694
+mas "Goodnotes", id: 1444383602
 mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Xcode", id: 497799835
