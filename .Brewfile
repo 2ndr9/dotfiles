@@ -3,6 +3,7 @@ tap "smudge/smudge"
 brew "awscli"
 brew "cmake"
 brew "direnv"
+brew "docker"
 brew "ffmpeg"
 brew "gh"
 brew "git"
@@ -14,14 +15,13 @@ brew "pyenv"
 brew "tree"
 brew "wget"
 brew "smudge/smudge/nightlight"
-brew "docker"
 cask "android-studio", args: { appdir: "/Applications" }
 cask "deepl", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
 cask "docker"
 cask "figma", args: { appdir: "/Applications" }
 cask "google-chrome", args: { appdir: "/Applications" }
-cask "google-japanese-ime", args: { appdir: "/Applications" }
+cask "google-japanese-ime"
 cask "karabiner-elements", args: { appdir: "/Applications" }
 cask "microsoft-auto-update"
 cask "microsoft-teams"
@@ -30,7 +30,7 @@ cask "slack", args: { appdir: "/Applications" }
 cask "spotify", args: { appdir: "/Applications" }
 cask "visual-studio-code", args: { appdir: "/Applications" }
 cask "warp"
-cask "zoomus"
+cask "zoom"
 mas "Goodnotes", id: 1444383602
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
