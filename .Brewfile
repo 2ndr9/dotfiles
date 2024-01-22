@@ -1,5 +1,7 @@
+tap "daipeihust/tap"
 tap "homebrew/bundle"
 tap "smudge/smudge"
+brew "act"
 brew "awscli"
 brew "cmake"
 brew "direnv"
@@ -15,6 +17,7 @@ brew "nodenv"
 brew "pyenv"
 brew "tree"
 brew "wget"
+brew "daipeihust/tap/im-select"
 brew "smudge/smudge/nightlight"
 cask "android-studio", args: { appdir: "/Applications" }
 cask "deepl", args: { appdir: "/Applications" }
